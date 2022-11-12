@@ -1,5 +1,5 @@
 import React from 'react'
-import FRAME1 from '../assets/Frame 151 (1).png';
+import {Rent} from '../data/data'
 import FRAME2 from '../assets/Frame 59528.png';
 
 const Menu = () => {
@@ -8,25 +8,34 @@ const Menu = () => {
     <div className='flex items-center justify-center'>
     <p className=' text-3xl text-center font-bold tracking-widest'>Inspiration for your next adventure</p>
     </div>
-    <div class="max-w-sm overflow-hidden rounded-3xl shadow-md">
-  <img class="w-full  p-5" src={FRAME1} alt="Sunset in the mountains"/>
-  <div class="px-6 py-4">
-    <div class="flex items-center justify-between ">
-    <p className=' text-cartBg'>Desert King</p>
-    <p className=' font-bold'>1MBT per night</p>
+    <div className='flex flex-col md:flex-row'>
+    {
+      Rent && Rent.map((data,idx)=>(
+       
+        <div class=" overflow-hidden rounded-3xl shadow-md" key={idx}>
+        <img class="w-full  p-5" src={data.imgsrc} alt="Sunset in the mountains"/>
+        <div class="px-6 py-4">
+          <div class="flex items-center justify-between ">
+          <p className=' text-cartBg'>{data.name}</p>
+          <p className=' font-bold text-cartBg'>{data.amount}</p>
+          </div>
+          <div class="flex items-center justify-between mt-3 ">
+          <p className=' text-cartBg'>{data.distance}</p>
+          <p className=' text-cartBg'>{data.time}</p>
+          </div>
+          <div class="flex items-center justify-start ">
+          <img src={FRAME2} alt='' className=' text-base font-medium mt-3'/>
+          
+          </div>
+          
+          
+        </div>
+      </div>
+     
+      ))
+    }
     </div>
-    <div class="flex items-center justify-between mt-3 ">
-    <p className=' text-cartBg'>2345km away</p>
-    <p className=' text-cartBg'>available for 2weeks stay</p>
-    </div>
-    <div class="flex items-center justify-start ">
-    <img src={FRAME2} alt='' className=' text-base font-medium mt-3'/>
-    
-    </div>
-    
-    
-  </div>
-</div>
+   
     </div>
   )
 }
