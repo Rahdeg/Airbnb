@@ -1,13 +1,16 @@
 import './App.css';
-import {Header,Home,Menu,About,Footer} from './Components'
+import {Header,Home,Footer} from './Components';
+import {Pts} from './Pages'
+import {Route,Routes} from 'react-router-dom';
 
 function App() {
   return (
     <div className=" w-screen h-auto flex flex-col bg-primary">
     <Header/>
-    <Home/>
-    <Menu/>
-    <About/>
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/place' element={<Pts/>}/>
+    </Routes>
     <Footer/>
     </div>
   );

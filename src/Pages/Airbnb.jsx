@@ -2,7 +2,7 @@ import React from 'react'
 
 const Airbnb = () => {
   return (
-    <div>Airbnb</div>
+    <div className=' text-rose-500'>Airbnb</div>
   )
 }
 

@@ -3,12 +3,13 @@ import Side from '../assets/Group 4028.png';
 import IMG1 from '../assets/Group 59536.png';
 import IMG2 from '../assets/Group 4038.png';
 import IMG3 from '../assets/logo (1).png'
+import {Menu, About} from '../Components'
 
 const Home = () => {
   return (
-    <div className='flex flex-col  m-6'>
+    <div className='flex flex-col  '>
     <div className='flex flex-col md:flex-row justify-around w-[350px] md:w-full '>
-    <div className=' flex flex-col ml-5  md:ml-0 justify-center w-full md:w-646 gap-4'>
+    <div className=' flex flex-col ml-5 justify-center w-full md:w-646 gap-4'>
     <div>
     <h2 className=' font-bold text-4xl md:text-5xl text-cartBg '> Rent a <span className=' text-cardOverlay'>Place</span> away from <br/> </h2>
     <h2 className='font-bold text-4xl md:text-5xl text-cartBg   mt-4'><span className=' text-cardOverlay'>Home</span> in the <span className=' text-cardOverlay'>Metaverse</span></h2>
@@ -21,11 +22,11 @@ const Home = () => {
     </button>
     </div>
     </div>
-    <div className='mt-10 md:mt-0 '>
+    <div className='mt-10 md:mt-0 ml-5 '>
     <img src={Side} alt='side' className=''/>
     </div>
     </div>
-    <div className=' w-full h-full md:flex-row m-2 p-2 mt-12 flex flex-col items-center justify-around bg-cardOverlay'>
+    <div className=' w-full h-full md:flex-row p-2 mt-12 flex flex-col items-center justify-around bg-cardOverlay'>
    <div className='flex items-center justify-center'>
    <img src={IMG1} alt='' className=''/>
    <p className='text-white text-xl font-extrabold'>MBToken</p>
@@ -39,7 +40,10 @@ const Home = () => {
    <p className=' text-white text-xl font-extrabold m-1'>OpenSea</p>
    </div>
     </div>
+    <Menu/>
+    <About/>
     </div>
+   
   )
 }
 

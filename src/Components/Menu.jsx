@@ -4,13 +4,15 @@ import FRAME2 from '../assets/Frame 59528.png';
 
 const Menu = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col lg:m-6'>
     <div className='flex items-center justify-center'>
     <p className=' text-3xl text-center font-bold tracking-widest'>Inspiration for your next adventure</p>
     </div>
-    <div className='flex flex-col md:flex-row'>
+    <div className='grid grid-cols-1 gap-4 justify-between  m-5 p-5 md:m-4 md:p-4 md:grid-cols-2  lg:grid-cols-4'>
     {
-      Rent && Rent.map((data,idx)=>(
+      Rent && Rent.filter(datas=>
+        datas.id < 9
+      ).map((data,idx)=>(
        
         <div class=" overflow-hidden rounded-3xl shadow-md" key={idx}>
         <img class="w-full  p-5" src={data.imgsrc} alt="Sunset in the mountains"/>

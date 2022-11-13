@@ -5,6 +5,14 @@ import IMG4 from '../assets/Frame 151 (4).png'
 import IMG5 from '../assets/Frame 151 (5).png'
 import IMG6 from '../assets/Frame 151 (6).png'
 import IMG7 from '../assets/Frame 151 (7).png'
+import IMG9 from '../assets/Frame 151 (8).png'
+import IMG10 from '../assets/Frame 151 (9).png'
+import IMG11 from '../assets/Frame 151 (10).png'
+import IMG12 from '../assets/Frame 151 (11).png'
+import IMG13 from '../assets/Frame 151 (12).png'
+import IMG14 from '../assets/Frame 151 (13).png'
+import IMG15 from '../assets/Frame 151 (14).png'
+import IMG16 from '../assets/Frame 151 (15).png'
 import IMG8 from '../assets/Frame 151.png'
 
 
@@ -72,5 +80,69 @@ export const Rent = [
        distance: "2345km away ",
        time: "available for 2weeks stay ",
          imgsrc:IMG8
-      }
+      },
+      {
+         id:9,
+         name:'Desert King',
+         amount:'1MBT per night',
+         distance: "2345km away ",
+         time: "available for 2weeks stay ",
+         imgsrc:IMG9
+      },
+      {
+          id:10,
+          name:'Desert King',
+         amount:'1MBT per night',
+         distance: "2345km away ",
+         time: "available for 2weeks stay ",
+         imgsrc:IMG10
+       },
+       {
+          id:11,
+          name:'Desert King',
+         amount:'1MBT per night',
+         distance: "2345km away ",
+         time: "available for 2weeks stay ",
+          imgsrc:IMG11
+       },
+       {
+          id:12,
+          name:'Desert King',
+         amount:'1MBT per night',
+         distance: "2345km away ",
+         time: "available for 2weeks stay ",
+          imgsrc:IMG12
+       },
+       {
+          id:13,
+          name:'Desert King',
+         amount:'1MBT per night',
+         distance: "2345km away ",
+         time: "available for 2weeks stay ",
+          imgsrc:IMG13
+       },
+       {
+           id:14,
+           name:'Desert King',
+         amount:'1MBT per night',
+         distance: "2345km away ",
+         time: "available for 2weeks stay ",
+          imgsrc:IMG14
+        },
+        {
+           id:15,
+           name:'Desert King',
+         amount:'1MBT per night',
+         distance: "2345km away ",
+         time: "available for 2weeks stay ",
+           imgsrc:IMG15
+        },
+        {
+           id:16,
+           name:'Desert King',
+         amount:'1MBT per night',
+         distance: "2345km away ",
+         time: "available for 2weeks stay ",
+           imgsrc:IMG16
+        }
 ]
