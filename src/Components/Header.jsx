@@ -1,7 +1,10 @@
 import React from 'react'
 import Logo from '../assets/Group.png'
+import {useStateContext} from '../context/ContextProvider'
+
 
 const Header = () => {
+  const {setthemesettings}= useStateContext();
   return (
     <div className=' flex flex-col md:flex-row  gap-6 items-center justify-between m-6'>
     <div className=' items-center justify-center'>
@@ -16,7 +19,9 @@ const Header = () => {
     <a href='#community' className=' text-cartBg'>Community</a>
     </div>
     <div className=' items-center justify-center'>
-    <button className=' bg-cardOverlay rounded-md m-1 p-2 text-white text-sm w-150 h-80'>
+    <button className=' bg-cardOverlay rounded-md m-1 p-2 text-white text-sm w-150 h-80'
+    onClick={()=>{setthemesettings(true)}}
+    >
     Connect wallet
     </button>
     </div>
