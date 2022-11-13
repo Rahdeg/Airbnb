@@ -6,7 +6,7 @@ import FRAME3 from '../assets/setting-5.png'
 const Pts = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-4 mt-5'>
-    <div className=' flex items-center justify-center gap-24'>
+    <div className=' flex flex-col md:flex-row  gap-4 items-center justify-center lg:gap-24 md:gap-6'>
     <a href='#res' className=' text-cartBg'>Resturant</a>
     <a href='#cottage' className=' text-cartBg'>Cottage</a>
     <a href='#castle'className=' text-cartBg'>Castle</a>
