@@ -13,7 +13,10 @@ import IMG13 from '../assets/Frame 151 (12).png'
 import IMG14 from '../assets/Frame 151 (13).png'
 import IMG15 from '../assets/Frame 151 (14).png'
 import IMG16 from '../assets/Frame 151 (15).png'
-import IMG8 from '../assets/Frame 151.png'
+import IMG8 from '../assets/Frame 151.png';
+import IMG69 from '../assets/image 69.png';
+import IMG66 from '../assets/image 66.png';
+
 
 
 export const Rent = [
@@ -146,3 +149,18 @@ export const Rent = [
            imgsrc:IMG16
         }
 ]
+
+export const Walett = [
+   {
+      id:1,
+      name:'Metamask',
+      imgsrc:IMG66,
+      btnBg: '#F8F9FA'
+   },
+   {
+      id:2,
+      name:'WalettConnect',
+      imgsrc:IMG69,
+      btnBg: '',
+    }
+   ]

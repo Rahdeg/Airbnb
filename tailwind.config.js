@@ -47,8 +47,10 @@ module.exports = {
       },
       colors: {
         houtlineColor: "#A3A3A3",
-        textColor: "#515151",
+        lineColor: "#CFD8DC",
         cartNumBg: "#e80013",
+        NumBg: "#CFD8DC",
+        textColor:"#000000",
         primary: "#FFFFFF",
         cardOverlay: "#A02279",
         lighttextGray: "#9ca0ab",
