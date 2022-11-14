@@ -7,7 +7,7 @@ import {useStateContext} from './context/ContextProvider'
 function App() {
   const {themesettings}= useStateContext();
   return (
-    <div className=" w-screen h-auto flex flex-col bg-primary">
+    <div className=" w-screen lg:ml-4 h-auto flex flex-col bg-primary">
     <Header/>
     <div>
     {themesettings && <Cwp/> }

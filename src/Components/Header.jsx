@@ -6,15 +6,15 @@ import {useStateContext} from '../context/ContextProvider'
 const Header = () => {
   const {setthemesettings}= useStateContext();
   return (
-    <div className=' flex flex-col md:flex-row  gap-6 items-center justify-between m-6'>
+    <div className=' flex flex-col md:flex-row lg:gap-64 items-center gap-6 justify-around m-8 mb-16'>
     <div className=' items-center justify-center'>
     <a href='/'>
     <img src={Logo} alt='logo'/>
     </a>
     </div>
-    <div className=' flex items-center justify-center gap-8'>
-    <a href='/' className=' text-cartBg'>Home</a>
-    <a href='/place' className=' text-cartBg'>Place to stay</a>
+    <div className=' flex items-center justify-center gap-4 lg:gap-8'>
+    <a href='/' className=' text-cartBg '>Home</a>
+    <a href='/place' className=' text-cartBg '>Place to stay</a>
     <a href='#nft' className=' text-cartBg'>NFTs</a>
     <a href='#community' className=' text-cartBg'>Community</a>
     </div>

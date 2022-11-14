@@ -8,8 +8,8 @@ import {Menu, About} from '../Components'
 const Airbnb = () => {
   return (
     <div className='flex flex-col  '>
-    <div className='flex flex-col md:flex-row justify-around w-[350px] md:w-full '>
-    <div className=' flex flex-col ml-5 justify-center w-full md:w-646 gap-4'>
+    <div className='flex flex-col  md:flex-row justify-around w-[350px] md:w-full '>
+    <div className=' flex flex-col ml-5 lg:ml-0 justify-center w-full md:w-646 gap-4'>
     <div>
     <h2 className=' font-bold text-4xl md:text-5xl text-cartBg '> Rent a <span className=' text-cardOverlay'>Place</span> away from <br/> </h2>
     <h2 className='font-bold text-4xl md:text-5xl text-cartBg   mt-4'><span className=' text-cardOverlay'>Home</span> in the <span className=' text-cardOverlay'>Metaverse</span></h2>
