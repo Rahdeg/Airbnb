@@ -12,7 +12,7 @@ const Header = () => {
     <img src={Logo} alt='logo'/>
     </a>
     </div>
-    <div className=' flex items-center justify-center gap-4 lg:gap-8'>
+    <div className=' flex items-center justify-center gap-3 lg:gap-8'>
     <a href='/' className=' text-cartBg '>Home</a>
     <a href='/place' className=' text-cartBg '>Place to stay</a>
     <a href='#nft' className=' text-cartBg'>NFTs</a>

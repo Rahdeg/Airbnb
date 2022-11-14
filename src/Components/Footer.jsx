@@ -17,7 +17,7 @@ const Footer = () => {
     <img src={IMG3} alt=''/>
     <img src={IMG4} alt=''/>
     </div>
-    <div className='hidden lg:block mt-2  '>
+    <div className='hidden md:block mt-2  '>
     <img src={IMG5} alt=''/>
     </div>
     </div>
