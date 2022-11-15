@@ -9,7 +9,7 @@ const Cwp = () => {
   return (
     <div className=' bg-card w-screen fixed  inset-0 overflow-y-auto'>
 <div
-	class="relative top-20 mx-auto  border md:w-[600px] shadow-lg rounded-2xl bg-white "
+	class="relative top-64 mx-auto  border md:w-[600px] shadow-lg rounded-2xl bg-white "
 >
 	<div class="mt-1 flex flex-col m-3 p-2">
 	<div className='flex items-center justify-between m-2 p-2 '>
