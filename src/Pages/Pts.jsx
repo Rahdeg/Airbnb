@@ -6,7 +6,17 @@ import FRAME3 from '../assets/setting-5.png'
 const Pts = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-4 mt-5'>
-    <div className=' flex flex-col md:flex-row  gap-4 items-center justify-center lg:gap-24 md:gap-6'>
+    
+  <div class="mb-3 xl:w-96 lg:hidden">
+    <select class="form-select appearance-none block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+  </div>
+
+    <div className=' hidden lg:flex-row  gap-4 items-center justify-center lg:gap-24 md:gap-6'>
     <a href='#res' className=' text-cartBg'>Resturant</a>
     <a href='#cottage' className=' text-cartBg'>Cottage</a>
     <a href='#castle'className=' text-cartBg'>Castle</a>

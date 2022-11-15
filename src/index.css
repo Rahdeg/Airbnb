@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  /* font-family: 'Red Rose', cursive; */
 }
 
 code {
@@ -20,6 +21,8 @@ body::-webkit-scrollbar,html::-webkit-scrollbar{
 body,html{
   scroll-behavior: smooth;
 }
+
+/* @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap'); */
 
 @tailwind base;
 @tailwind components;
