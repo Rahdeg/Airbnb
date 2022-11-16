@@ -7,16 +7,21 @@ const Pts = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-4 mt-5'>
     
-  <div class="mb-3 xl:w-96 lg:hidden">
-    <select class="form-select appearance-none block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-    </select>
-  </div>
+    <div className="relative w-full lg:max-w-sm block lg:hidden m-3 p-3">
+    <select className="w-full p-3 text-gray-500 bg-white border rounded-md shadow-sm outline-none  focus:border-indigo-600">
+      <option>Restaurant</option>
+      <option>Cottage</option>
+      <option>Castle</option>
+      <option>Fastast City</option>
+      <option>Beach</option>
+      <option>Cabins</option>
+      <option>Off-grid</option>
+      <option>Farm</option>
+      <option className="font-[700px]">Location</option>
+      </select>
+      </div>
 
-    <div className=' hidden lg:flex-row  gap-4 items-center justify-center lg:gap-24 md:gap-6'>
+    <div className=' hidden lg:flex lg:flex-row  gap-4 items-center justify-center lg:gap-8'>
     <a href='#res' className=' text-cartBg'>Resturant</a>
     <a href='#cottage' className=' text-cartBg'>Cottage</a>
     <a href='#castle'className=' text-cartBg'>Castle</a>
